@@ -67,37 +67,8 @@ body {
 }
 
 input[type=submit] {
+    margin-top: 10px;
     margin-left: 90px;
     padding: 7px 20px;
     font-size: 15px;
-}
-
-.nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: blueviolet;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    vertical-align: center;
-}
-
-.nav .title p{
-    padding-top: 10px;
-    font-size: 30px;
-    color: white;
-}
-
-.nav .options {
-    padding-top: 15px;
-}
-
-.nav .options a{
-    text-decoration: none;
-    color: white;
-    padding:0px 15px ;
-}
-
-.nav .options .active {
-    border-bottom: 3px gray solid;
 }

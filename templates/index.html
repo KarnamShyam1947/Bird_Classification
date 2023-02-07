@@ -15,19 +15,20 @@
 
             <div class="options">
                 <a href="#" class="active" >Home</a>
-                <a href="#">Gallery</a>
+                <a href="{{ url_for('gallery') }}">Gallery</a>
                 <a href="{{ url_for('video') }}">video</a>
-                <a href="#">Logs</a>
+                <a href="{{ url_for('logs') }}">Logs</a>
                 <a href="{{ url_for('main') }}">Log out</a>
             </div>
         </div>
 
         <div class="main">
-            <form action="#">
-                <input type="file" name="img" id="img"> <br> <br>
-                <input type="submit" value="classify">
-            </form>
-
+            <div class="form">
+                <form action="/result" method="post" enctype="multipart/form-data">
+                    <input type="file" name="img" id="img"> <br> <br>
+                    <input type="submit" value="classify">
+                </form>
+            </div>
         </div>
     </body>
 

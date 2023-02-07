@@ -1,18 +1,18 @@
 import cv2
 from labels import label
 import Bird_Classifier
-import Recognition as Recognition
+import Recognition
 
 model = Recognition.load_model()
 
 def further_classification(img, bbox):
     
     x, y, w, h = bbox
-    crop_img = img[y:y+w , x:x+h]
+    crop_img = img[y:y+h , x:x+w]
 
-    cv2.imwrite('cropped/img.png', crop_img)
+    cv2.imwrite('image.png', crop_img)
 
-    result = Bird_Classifier.predict('cropped/img.png')
+    result = Bird_Classifier.predict('image.png')
     print(result)
 
     cv2.rectangle(img, bbox, color=(255,0,0), thickness=2)

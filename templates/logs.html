@@ -2,7 +2,8 @@
 
 <html>
     <head>
-        <title>Video-streaming | Object Classification</title>
+        <title>Logs | Object Classification</title>
+
         <link rel="stylesheet" href="{{ url_for('static', filename='page.css') }}">
     </head>
 
@@ -15,17 +16,19 @@
             <div class="options">
                 <a href="{{ url_for('login') }}">Home</a>
                 <a href="{{ url_for('gallery') }}">Gallery</a>
-                <a href="#" class="active" >video</a>
-                <a href="{{ url_for('logs') }}">Logs</a>
+                <a href="{{ url_for('video') }}">video</a>
+                <a href="#" class="active" >Logs</a>
                 <a href="{{ url_for('main') }}">Log out</a>
             </div>
         </div>
 
-        <div>
-            <img src="{{ url_for('video_stream') }}" width="50%"/>
+        <div class="log">
+            <textarea name="" id="" cols="150" rows="100">
+                {% for line in logs %}
+                    {{ line }}
+                {% endfor %}
+            </textarea>
         </div>
-
-        <a href="{{ url_for('login') }}">back</a>
     </body>
 
 </html>

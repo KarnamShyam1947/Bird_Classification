@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>Video-streaming | Object Classification</title>
+        <title>Gallery | Object Classification</title>
         <link rel="stylesheet" href="{{ url_for('static', filename='page.css') }}">
     </head>
 
@@ -14,18 +14,18 @@
 
             <div class="options">
                 <a href="{{ url_for('login') }}">Home</a>
-                <a href="{{ url_for('gallery') }}">Gallery</a>
-                <a href="#" class="active" >video</a>
+                <a href="#" class="active" >Gallery</a>
+                <a href="{{ url_for('video') }}">video</a>
                 <a href="{{ url_for('logs') }}">Logs</a>
                 <a href="{{ url_for('main') }}">Log out</a>
             </div>
-        </div>
 
-        <div>
-            <img src="{{ url_for('video_stream') }}" width="50%"/>
         </div>
-
-        <a href="{{ url_for('login') }}">back</a>
+        
+        <div class="gallery">
+            {% for image in images %}
+                <img src="{{ url_for('display_image', filename=image) }}" alt="" width="400" height="300">
+            {% endfor %}
+        </div>
     </body>
-
 </html>

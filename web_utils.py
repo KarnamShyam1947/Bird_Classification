@@ -1,3 +1,4 @@
+from datetime import datetime
 import Bird_Classifier
 import Recognition
 import labels
@@ -5,6 +6,15 @@ import cv2
 
 model = Recognition.load_model()
 camera=cv2.VideoCapture(0)
+
+def log_details(msg):
+    now = datetime.now().strftime("%d-%m-%Y, %H:%M:%S")
+    msg = f'\n[ {now} ]{msg}'
+
+    with open('logs.txt', 'a') as file:
+        file.write(msg)
+
+        file.close()
 
 def if_bird_image(img, bbox):
     x, y, w, h = bbox
@@ -45,7 +55,7 @@ def generate_frames():
                    b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
 
 def main():
-    pass
+    log_details('Hello, World')
 
 if __name__ == '__main__' : 
     main()

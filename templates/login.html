@@ -24,15 +24,15 @@
                     <div class="form-body">
                         <div class="form-input">
                             <i class="fa fa-envelope"></i>
-                            <input type="email" name="email" id="email" placeholder="Enter your email">
+                            <input type="email" name="email" id="email" placeholder="Enter your email" required >
                         </div>
 
                         <div class="form-input">
                             <i class="fa fa-lock"></i>
-                            <input type="password" name="password" id="password" placeholder="Enter your password">
+                            <input type="password" name="password" id="password" placeholder="Enter your password" required >
                         </div>
                     </div>
-
+                    {{ msg }} <br>
                     <input type="submit" value="Login">
                 </form>
             </div>

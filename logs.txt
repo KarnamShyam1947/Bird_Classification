@@ -1,0 +1,21 @@
+
+[ 07-02-2023, 20:39:27 Please select a file ]
+[ 07-02-2023, 20:39:37 Please upload an image file. Allowed extensions are .jpg, .jepg, .png ]
+[ 07-02-2023, 20:40:13 The image contains 1 car (conf: 77.99%)   and image doesn't contain any birds ]
+[ 07-02-2023, 20:41:48 Please select a file ]
+[ 07-02-2023, 20:46:13 The image contains 1 bird (conf: 73.15%)   and  The bird name(s)  : 019.Gray_Catbird   074.Florida_Jay    ]
+[ 07-02-2023, 20:46:25 The image contains 1 bird (conf: 85.89%)   and  The bird name(s)  : 001.Black_footed_Albatross   074.Florida_Jay    ]
+[ 07-02-2023, 20:48:41 The image contains 1 bird (conf: 86.0%)   and  The bird name(s)  : 001.Black_footed_Albatross   074.Florida_Jay    ]
+[ 07-02-2023, 20:49:37 Please select a file ]
+[ 07-02-2023, 20:51:59 The image contains 1 bird (conf: 85.84%)   and  The bird name(s)  : 001.Black_footed_Albatross   074.Florida_Jay    ]
+[ 07-02-2023, 20:52:50 Please select a file ]
+[ 07-02-2023, 20:53:02 The image contains 1 bird (conf: 73.15%)   and  The bird name(s)  : 019.Gray_Catbird   074.Florida_Jay    ]
+[ 07-02-2023, 20:53:11 The image contains 1 bird (conf: 85.89%)   and  The bird name(s)  : 001.Black_footed_Albatross    ]
+[ 07-02-2023, 20:53:21 The image contains 2 dog (conf: 75.74%)  1 cat (conf: 67.68%)   and image doesn't contain any birds ]
+[ 07-02-2023, 20:53:36 Please select a file ]
+[ 07-02-2023, 21:02:56 ]Please select a file
+[ 07-02-2023, 21:03:07 ]The image contains 1 person (conf: 65.07%)  1 tie (conf: 64.15%)   and image doesn't contain any birds
+[ 07-02-2023, 21:03:25 ]The image contains 1 bird (conf: 73.15%)   and  The bird name(s)  : 019.Gray_Catbird   074.Florida_Jay   
+[ 07-02-2023, 21:03:48 ]Please upload an image file. Allowed extensions are .jpg, .jepg, .png
+[ 07-02-2023, 21:12:59 ]The image contains 1 key board (conf: 77.16%)   and image doesn't contain any birds
+[ 07-02-2023, 21:13:46 ]Please select a file
